@@ -1,0 +1,30 @@
+.images__bottom{
+    display:flex;
+    width: 100%;
+    margin-top: -5px;
+}
+.images__4, .images__5, .images__6{
+    width: 22%;
+    height: 200px;
+    margin-right: 10px;
+}
+.images__1, .images__2, .images__3{
+    width: 100%;
+}
+.images__1{
+    margin-bottom: 10px;
+    border-top-left-radius: 10px;
+}
+.images__1, .images__2{
+    height: 245px;
+}
+.images__3{
+    height: 500px;
+    border-top-right-radius: 10px;
+}
+.images__4{
+    border-bottom-left-radius: 10px;
+}
+.images__6{
+    border-bottom-right-radius: 10px;
+}

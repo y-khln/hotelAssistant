@@ -1,0 +1,115 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    margin: 20px auto 0 300px;
+    padding: 20px;
+    width: 75%;
+    min-height: 300px;
+    border-radius: 20px;
+}
+.sections{
+    display: flex;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    background-color: #282828;
+}
+.sections__child, .sections__title, .admin__back{
+    display: flex;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #a2a0a0;
+}
+a:hover{
+    color: #ff9500;
+}
+.admin__back:hover{
+
+}
+.sections__title{
+    font-size: 18px;
+}
+.sections__child:hover{
+    background-color: #383838;
+}
+.main__content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.history,.service,.personal,.registration{
+    transform: translateY(-45%) scale(1%);
+    transition: .4s ease-in-out;
+    display: none;
+}
+.history.active,.service.active, .personal.active, .registration.active{
+    transform: translateY(0%) scale(100%);
+    display: flex;
+    width: 70%;
+}
+.history__block{
+    border: 1px solid grey;
+    margin: 10px;
+}
+.history, .service{
+    overflow: auto;
+    height: 450px;
+}
+
+input{
+    font-size: 15px;
+}
+.main__p{
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.main__span{
+    font-weight: normal;
+    /*margin-left: 10px;*/
+}
+/*ВОСКЛИЦАТЕЛЬНЫЙ ЗНАК*/
+.exclaim{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.container{
+    margin: 30px 0 0 300px;
+    text-align: center;
+}
+.main__button{
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+}
+.container__hello{
+    font-family: Gilroy-Bold;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 70px;
+}

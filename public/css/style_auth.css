@@ -1,0 +1,164 @@
+.enter{
+    margin: 50px auto 10px auto;
+    font-family: Gilroy-Bold;
+    font-size: 25px;
+}
+#success{
+    text-align: center;
+}
+.description{
+    margin: 10px auto;
+    font-family: Gilroy;
+    font-size: 18px;
+}
+.login{
+    padding: 10px 30px;
+    margin: 0 auto;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.form__auth{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+input{
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+#permission{
+    box-shadow: none;
+    width: 20px;
+}
+.login__input{
+    margin: 5px auto;
+}
+.form__button{
+    width: 150px;
+    height: 40px;
+    margin: 10px auto -10px auto;
+    border: none;
+    border-radius: 7px;
+    background-color:#FF7500;
+    color: white;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+.form__button:hover{
+    background-color: #ff9500;
+    /*color: white;*/
+    transform:scale(1.03);
+    transition: 0.3s;
+}
+.message{
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    color: #de1414;
+}
+
+.new{
+    margin: 100px auto;
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+}
+.new__title{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.new__registrate{
+    margin: 10px 13px;
+    height: 40px;
+    width: 170px;
+    font-size: 16px;
+    font-family: Gilroy-Bold;
+    background: #d9cabb;
+    color: #6a4f39;
+    border: none;
+    border-radius: 5px;
+}
+.new__registrate:hover{
+    background: #ab9585;
+    color: #5b4231;
+    transition: 0.5s;
+}
+.extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+}
+.reg__button{
+    width: 180px;
+    font-size: 16px;
+    margin-top: -7px;
+}
+
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    padding: 10px 30px;
+    margin: 40px auto;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.registration__auth{
+    margin: 5px;
+}
+.registration__data{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+.passport{
+    margin-top: 0px;
+}
+.registration__button{
+    margin-bottom: 10px;
+}
+.registration__permission{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -12px;
+}
+.complete{
+    margin: 20px auto;
+    width: 500px;
+}
+
+
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("../fonts/Gilroy-Light.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

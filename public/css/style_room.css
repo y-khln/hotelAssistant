@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Gilroy;
+    color:#121212;
+}
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px 10px 0;
+    font-size: 16px;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+}
+.head__logo{
+    margin-left: 10%;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+}
+.head__navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.head__elem{
+    text-decoration: none;
+    color: white;
+}
+.head__book{
+    font-size: 16px;
+    color:white;
+    width: 172px;
+    height: 47px;
+    background-color:#121212;
+    border: 1px solid white;
+}
+
+
+.booking{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    height: 280px;
+    width: 240px;
+    background-color:rgb(239, 237, 237);
+    border: 1px solid rgb(230, 229, 229);;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.booking__date{
+    text-align: center;
+}
+.booking__header{
+    font-size: 20px;
+    font-family: Gilroy-Bold;
+    margin: 10px auto 20px;
+}
+.booking__desc{
+    font-family: Gilroy-Light;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.booking__date-in{
+    margin-bottom: 5px;
+}
+.booking__purpose{
+    margin: 10px auto -10px;
+    text-align: center;
+}
+.persons{
+    padding: 5px;
+    font-family: Gilroy-Light;
+    font-size: 14px;
+}
+.booking__persons{
+    margin: 10px auto;
+}
+.booking__count{
+    text-align: center;
+}
+.booking__submit{
+    margin: 15px auto 0 auto;
+    background-color:#FF7500;
+    color: white;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.booking__submit:hover{
+    background-color: #ff9500;
+    transform:scale(1.03);
+    transition: 0.3s;
+}
+.container{
+    display: flex;
+    margin: 50px 150px;
+}
+.container__header{
+    font-family: Gilroy-Bold;
+    font-size: 25px;
+}
+.container__main{
+    margin-left: 20px;
+    width: 80%;
+}
+.container__list{
+    display: flex;
+    justify-content: left;
+    margin-top: 1px;
+}
+.container__anchor{
+    padding: 6px 8px;
+    margin-right: 7px;
+    border-radius: 5px;
+    background-color:rgb(239, 237, 237);
+    border: 1px solid rgb(230, 229, 229);;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+.container__anchor a{
+    color: #4c4a4a;
+}
+.container__images{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.images__left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 10px -10px 0;
+}
+.images__right{
+    width: 60%;
+    margin: 0 0 10px 0;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 425px;
+    width: 57%;
+}
+.services{
+    display: flex;
+}
+.services__header{
+    font-size: 18px;
+    font-family: Gilroy-Bold;
+    margin-bottom: 5px;
+}
+.services__left, .services__right, .services__middle{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.services__right, .services__middle{
+    margin-left: 5%;
+}
+.services__services{
+    display: flex;
+    flex-direction: column;
+}
+.services__service{
+    margin-top: 10px;
+}
+.services__galka{
+    width: 10px;
+    opacity: 50%;
+    height: auto;
+}
+
+.container3{
+    margin-left: 425px;
+    width: 57%;
+}
+.container3__main{
+    display: flex;
+}
+.container3__conditions, .container3__results{
+    display: flex;
+    flex-direction: column;
+}
+.container3__conditions{
+    min-width: 110px;
+    margin-right: 20px;
+}
+.container3__condition,.container3__p{
+    margin-bottom: 10px;
+}
+.container3__p2{
+    margin-top: -2px;
+}
+.container3__p1{
+    margin-top: 14px;
+}
+.review{
+    display: flex;
+    margin-bottom: 15px;
+    max-width: 700px;
+    height: auto;
+    background-color: white;
+    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    z-index: 20;
+}
+.review__text{
+    padding: 0 3px;
+}
+.review__review{
+    font-size: 13px;
+    font-weight: normal;
+
+}
+.review__human{
+    width: 41px;
+    height: 41px;
+    border-radius: 20px;
+    margin: 10px 12px 10px 14px;
+}
+.review__name{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: -7px;
+}
+.review__rating{
+    color:#FF7500;
+    font-weight: bold;
+}
+.review__give{
+    font-size: 12px;
+    color: rgba(41, 41, 41, 0.4);
+}
+
+
+
+
+footer{
+    margin-top: auto;
+    background-color: #121212;
+    height: 200px;
+    width: 100%;
+}
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("../fonts/Gilroy-Light.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
